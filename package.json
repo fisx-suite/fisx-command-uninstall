@@ -1,0 +1,20 @@
+{
+  "name": "fisx-command-uninstall",
+  "version": "0.1.0",
+  "description": "component uninstall for fisx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis3",
+    "fisx",
+    "uninstall",
+    "component"
+  ],
+  "author": "sparklewhy@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "fisx-package": "^0.1.0"
+  }
+}

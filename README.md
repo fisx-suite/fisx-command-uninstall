@@ -1,0 +1,2 @@
+fisx-command-uninstall
+========
