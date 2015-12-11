@@ -5,8 +5,8 @@
 
 var pkgManage = require('fisx-package');
 
-exports.name = 'install <components>';
-exports.desc = 'install components package';
+exports.name = 'uninstall <components>';
+exports.desc = 'uninstall components package';
 exports.options = {
     '-h, --help': 'print this help message',
     '-r, --root <path>': 'set project root',
