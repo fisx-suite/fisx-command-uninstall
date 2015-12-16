@@ -5,7 +5,7 @@ fisx-command-uninstall
 
 ## how to use
 
-### search component package
+### uninstall component package
 
 ```shell
 fisx uninstall jquery
