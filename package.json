@@ -22,6 +22,6 @@
   "author": "sparklewhy@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "fisx-package": "^0.1.0"
+    "fisx-package": "^0.2.0"
   }
 }
