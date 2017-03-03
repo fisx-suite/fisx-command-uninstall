@@ -12,7 +12,8 @@ exports.options = {
     '-r, --root <path>': 'set project root',
     '-f, --force': 'force uninstall without confirm',
     '-s, --save': 'save component(s) dependencies into `package.json` file',
-    '-d, --save-dev': 'save component(s) dependencies into `package.json` devDependencies'
+    '-d, --save-dev': 'save component(s) dependencies into `package.json` devDependencies',
+    '--ignore-dep': 'disable removing the dependence packages of the uninstalled package'
 };
 
 exports.run = function (argv, cli, env) {
@@ -27,7 +28,8 @@ exports.run = function (argv, cli, env) {
         root: env.cwd,
         saveToDevDep: argv['save-dev'] || argv.d,
         saveToDep: argv.save || argv.s,
-        confirm: force === undefined ? true : !force
+        confirm: force === undefined ? true : !force,
+        removeDep: argv['ignore-dep'] == null ? true : false
     };
 
     return pkgManage.initProjectRoot(env.configNameSearch[0], options, fis)
