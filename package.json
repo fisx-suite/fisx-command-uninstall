@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuhy/fisx-command-uninstall.git"
+    "url": "https://github.com/fisx-suite/fisx-command-uninstall.git"
   },
   "bugs": {
-    "url": "http://github.com/wuhy/fisx-command-uninstall/issues"
+    "url": "http://github.com/fisx-suite/fisx-command-uninstall/issues"
   },
   "keywords": [
     "fis3",
